@@ -114,7 +114,7 @@ mongoose
   });
   
 
-//port
+// setting the application port number
 app.listen(3001, () => {
   console.log("Server running on port 3001");
 });
