@@ -1,0 +1,224 @@
+.row {
+  background-color: beige;
+  font-size: 22px;
+}
+
+.body {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#tit {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+#pro {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+#tab {
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+.hrtt {
+  border-radius: 2px;
+  border: 1px solid black;
+  margin-left: 300px;
+}
+.hrt {
+  border-radius: 2px;
+  border: 2px solid black;
+  font-size: 22px;
+}
+
+.tbl {
+  margin-left: 300px;
+}
+#table {
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+/* Filename - App.css*/
+
+table {
+  border: 2px solid forestgreen;
+  width: 800px;
+  height: 200px;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+
+.btn1 {
+  border: 2px solid black;
+  background-color: #f9691b;
+  color: white;
+  padding: 2px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.btn2 {
+  border: 2px solid black;
+  background-color: #f44336;
+  color: white;
+  padding: 2px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.btn3 {
+  border: 2px solid black;
+  background-color: #f9691b;
+  color: white;
+  padding: 2px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+.butonn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 200px;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.buton {
+  background-color: #f9691b;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 300px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.butn {
+  background-color: #f9691b;
+  border: none;
+  color: white;
+  padding: 8px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 170px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+#btne {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #08a7ca;
+  color: white;
+  padding: 2px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.button-container {
+  display: flex;
+  background-color: #555555;
+  font-size: 10px;
+}
+
+.tbl {
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#bdr {
+  border-radius: 5px;
+  padding-top: 30px;
+}
+
+input[type="text"],
+select,
+textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+label {
+  padding: 12px 12px 12px 20px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 100px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  margin-top: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
